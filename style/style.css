@@ -72,15 +72,18 @@ footer {
 
 /* Specific styles for each social media icon */
 .footer-social-icons .x-icon {
-    color: #1DA1F2; /* X (Twitter) blue */
+    color: #1DA1F2;
+    /* X (Twitter) blue */
 }
 
 .footer-social-icons .instagram-icon {
-    color: #E1306C; /* Instagram gradient color */
+    color: #E1306C;
+    /* Instagram gradient color */
 }
 
 .footer-social-icons .reddit-icon {
-    color: #FF4500; /* Reddit orange */
+    color: #FF4500;
+    /* Reddit orange */
 }
 
 /* Hover effects for each social media icon */
@@ -96,3 +99,34 @@ footer {
     color: #cc3700;
 }
 
+.footer-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.footer-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
