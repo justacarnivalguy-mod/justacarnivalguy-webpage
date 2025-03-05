@@ -130,3 +130,15 @@ footer {
     align-items: center;
     justify-content: center;
 }
+.responsive-roadmap-image {
+    display: block;
+    max-width: 80%; /* Adjust as needed */
+    height: auto;
+    margin: 0 auto; /* Center the image */
+}
+
+@media (max-width: 768px) {
+    .responsive-roadmap-image {
+        max-width: 98%; /* Make it wider on smaller screens */
+    }
+}
