@@ -142,3 +142,12 @@ footer {
         max-width: 98%; /* Make it wider on smaller screens */
     }
 }
+
+.footer-social-icons .telegram-icon {
+    color: #229ED9;
+    /* Telegram blue */
+}
+
+.footer-social-icons .telegram-icon:hover {
+    color: #0077CC;
+}
